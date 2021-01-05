@@ -1,0 +1,248 @@
+﻿*{
+    box-sizing:border-box;
+}
+
+body
+{
+    margin:auto
+}
+/*NAVIGATION BAR - NAVIGATION ITEAMS -TITLE BAR :*/
+.navbar_container1 
+{
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index:999;
+    background-color: rgb(57, 57, 57);
+    /*background-color:transparent;*/
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:1; 
+    padding:12px;
+}
+.navbar_container2 
+{
+    margin-right: 90px;
+    margin-left: 5%;
+}
+.navbar
+{
+    padding:0px;
+    margin:0px;
+    list-style-type:none;
+    overflow: hidden;
+
+}
+
+.nav_iteam
+{
+    float:right;
+    padding-right:50px;
+    text-decoration:none;
+    text-align:center;
+    /*color:white;*/
+    color:rgb(211, 211, 211);
+
+    visibility:hidden;
+    font-family:'Century Gothic';
+}
+
+
+.title a
+{
+    font-family:'Century Gothic';
+    text-decoration:none;
+    text-align:center;
+    color:white;
+    float:left;
+}
+
+
+#divtop {
+  z-index: 2;
+  height: 50px;
+  position: relative;
+  top: 0px;
+  margin:0px;
+  background-color: white;
+  
+}
+#maindiv1 {
+  
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  top: 0px;
+  left: 300px;
+  padding:5px;
+  border-left-style:solid;
+  border-color:rgb(203, 203, 203);
+  border-width:1px;
+}
+#maindiv2
+{
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  height: 700px;
+  top: 0px;
+  padding:5px;
+  border-left-style:solid;
+  border-color:rgb(203, 203, 203);
+  border-width:1px;
+}
+#maindiv3
+{
+  z-index: 1;
+  width: 200px;
+  height: 700px;
+  top: 0px;
+  padding:5px;
+  border-left-style:solid;
+  border-color:rgb(203, 203, 203);
+  border-width:1px;
+}
+#maindiv4
+{
+  z-index: 1;
+  position: absolute;
+  width: 200px;
+  height: 700px;
+  top: 0px;
+  padding:5px;
+  border-left-style:solid;
+  border-right-style:solid;
+  border-color:rgb(203, 203, 203);
+  border-width:1px;
+}
+
+.tile_style
+{
+    width:100%;
+    border-radius:8px;
+    background-color:orange;
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+    font-family:'Century Gothic';
+    font-size:25px;
+    color:white;
+    padding-top:43px;
+    padding-left:43px;
+}
+
+
+
+
+
+
+
+
+#MyBestScore_lbl,#Finishedmsg_lbl
+{
+  font-family:'Century Gothic';
+  font-size:25px;
+  width:250px;
+  height:68px;
+  text-align:center;
+  padding-top:15px;
+  float:left;
+  box-sizing:border-box;
+  background-color:white;
+  border-radius:15px;
+  margin:auto;
+  border-bottom-right-radius:0px;
+  margin-left:4px;
+  margin-top:30px;
+  border-style:solid;
+  border-width:2px;
+  border-color:orangered;
+  color:orangered
+}
+#StartGame_btn
+{
+  cursor:pointer;
+  font-family:'Century Gothic';
+  font-size:25px;
+  width:250px;
+  height:68px;
+  text-align:center;
+  padding-top:18px;
+  float:left;
+  box-sizing:border-box;
+  background-color:dodgerblue;
+  color:white;
+  border-radius:15px;
+  margin:auto;
+  border-top-left-radius:0px;
+  margin-left:4px; 
+}
+#GamePanel_div
+{
+  height:100%;width:300px;
+  border-right-style:solid;
+  border-left-style:solid;
+  margin:auto;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:18px;
+  box-sizing:border-box;
+  border-color:rgb(230, 230, 230);
+}
+.TilePanel
+{
+  background-color: white;
+  border-right: gray;
+  border-right-style: solid;
+}
+#P1_div
+{
+  height: 700px;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+}
+#P2_div,#P3_div
+{
+  height: 700px;
+
+  border-right-style: solid;
+  border-width: 1px;
+  border-color: gainsboro;
+}
+.TileRegular
+{
+  position: relative;
+
+  width: 100%;
+  height: 60px;
+  background-color: orange;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.TileDoubleXP
+{
+
+  position: relative;
+  background-color: darkslategray;
+  width: 100%;
+  height: 80px;
+  margin-top: 5px;
+  cursor: pointer;
+  color:white;
+  font-size: large;
+}
+.TileReward
+{
+
+  position: relative;
+  background-color: rgb(250, 9, 198);
+  width: 100%;
+  height: 80px;
+  margin-top: 5px;
+  cursor: pointer;
+  color:white;
+  font-size: large;
+}
